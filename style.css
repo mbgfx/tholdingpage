@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  scroll-behavior: smooth;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+@font-face {
+  font-family: 'AkiraExpanded-SuperBold';
+  src: url('fonts/AkiraExpanded-SuperBold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/AkiraExpanded-SuperBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('fonts/AkiraExpanded-SuperBold.woff2') format('woff2'), /* Super Modern Browsers */ url('fonts/AkiraExpanded-SuperBold.woff') format('woff'), /* Pretty Modern Browsers */ url('fonts/AkiraExpanded-SuperBold.ttf') format('truetype'), /* Safari, Android, iOS */ url('fonts/AkiraExpanded-SuperBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/montserrat-v18-latin-500.eot'); /* IE9 Compat Modes */
+  src: local(''), url('fonts/montserrat-v18-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('fonts/montserrat-v18-latin-500.woff2') format('woff2'), /* Super Modern Browsers */ url('fonts/montserrat-v18-latin-500.woff') format('woff'), /* Modern Browsers */ url('fonts/montserrat-v18-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */ url('fonts/montserrat-v18-latin-500.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/montserrat-v18-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''), url('fonts/montserrat-v18-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('fonts/montserrat-v18-latin-700.woff2') format('woff2'), /* Super Modern Browsers */ url('fonts/montserrat-v18-latin-700.woff') format('woff'), /* Modern Browsers */ url('fonts/montserrat-v18-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */ url('fonts/montserrat-v18-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+body {
+  line-height: 1;
+  font-family: 'Montserrat';
+  background: #000000;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.cover{margin: 0px; padding: 5% 0 0 0; text-align: center;}
+.cover img {width: 30%; margin: auto;}
+.cover p {color: #ffffff; padding: 1%;}
+.cover h3 {color: #fbbd4c; padding: 1%; font-family: 'AkiraExpanded-SuperBold'; font-size: 1.5em;}
