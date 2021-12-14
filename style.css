@@ -57,3 +57,12 @@ table {
 .cover img {width: 30%; margin: auto;}
 .cover p {color: #ffffff; padding: 1%;}
 .cover h3 {color: #fbbd4c; padding: 1%; font-family: 'AkiraExpanded-SuperBold'; font-size: 1.5em;}
+
+@media only screen and (max-width: 764px) {
+.cover img {width: 70%; margin: auto;}
+}
+
+
+@media only screen and (max-width: 480px) {
+.cover img {width: 70%; margin: auto;}
+}
